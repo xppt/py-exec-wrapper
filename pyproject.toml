@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exec-wrapper"
+version = "0.1.0"
+description = "Allows creating executable wrappers for any executable"
+authors = ["xppt <21246102+xppt@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
